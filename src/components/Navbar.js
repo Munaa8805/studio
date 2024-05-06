@@ -20,7 +20,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-bold md:text-white">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-bold md:text-white ">
       {/* Logo */}
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">loopstudios</h1>
 
@@ -45,8 +45,8 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? "fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 text-white bg-[#252625] ease-in-out duration-500"
-            : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]"
+            ? "fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 text-white bg-[#252625] ease-in-out duration-500 z-10"
+            : "ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%] z-10"
         }
       >
         {/* Mobile Logo */}

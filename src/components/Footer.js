@@ -7,7 +7,7 @@ import {
 } from "react-share";
 
 const Footer = () => {
-  const shareUrl = `https://fylo-beta-blond.vercel.app/`;
+  const shareUrl = `https://studio-seven-opal.vercel.app/`;
   return (
     <footer className="container  mx-auto max-w-6xl py-10 flex flex-col items-center mb-8 space-y-6 md:flex-row md:justify-between ">
       <div className="text-bold text-3xl text-green-500"> loopstudios</div>
